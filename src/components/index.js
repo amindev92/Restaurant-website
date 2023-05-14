@@ -1,0 +1,5 @@
+export { default as Footer } from './Footer/Footer.jsx'
+export { default as Newsletter } from './Footer/Newsletter.jsx'
+export { default as Menuitem } from './Menuitem/Menuitem.jsx'
+export { default as Navbar } from './Navbar/Navbar.jsx'
+export { default as Subheading } from './Subheading/Subheading.jsx'
