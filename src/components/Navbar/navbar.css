@@ -1,0 +1,134 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--color-black);
+}
+
+.navbar__logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar__logo h1 {
+    font-family: var(--first-font);
+    font-size: 4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar__menu-items {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.navbar__menu-items__item {
+    margin: 0 1rem;
+}
+
+.navbar__menu-items__link {
+    font-family: var(--second-font);
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--color-white);
+    transition: all 0.5s ease-in;
+
+}
+
+.navbar__menu-items__link:hover {
+    color: var(--color-gray);
+}
+
+.navbar__buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.navbar__buttons a {
+    color: var(--color-white);
+    margin-right: 1rem;
+    font-family: var(--second-font);
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.navbar__buttons a:hover {
+    border-bottom: 1px solid var(--color-white);
+}
+
+.navbar__buttons div {
+    width: 1px;
+    height: 3rem;
+    background: var(--color-white);
+    margin-right: 1rem;
+}
+
+.navbar__smallmenu {
+    display: none;
+}
+
+.openmenu {
+    color: var(--color-white);
+}
+
+.navbar__smallmenu-items__link {
+    font-family: var(--first-font);
+    font-size: 3.4rem;
+    font-weight: 400;
+    color: var(--color-golden);
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .navbar__menu-items {
+        display: none;
+    }
+
+    .navbar__smallmenu {
+        display: flex;
+    }
+
+    .navbar__smallmenu-overlay {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background: var(--color-black);
+    }
+
+    .closemenu {
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+        color: var(--color-golden);
+        cursor: pointer;
+    }
+
+    .navbar__smallmenu-items {
+        list-style: none;
+    }
+
+    .navbar__smallmenu-items__item {
+        margin: 1rem;
+    }
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .navbar__buttons {
+        display: none;
+    }
+}
