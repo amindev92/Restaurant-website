@@ -1,0 +1,10 @@
+.header {
+    background-color: var(--color-black);
+}
+
+.header__title {
+    font-family: var(--first-font);
+    font-size: 4.8rem;
+    color: var(--color-golden);
+    margin-bottom: 2rem;
+}

@@ -5,7 +5,7 @@ import Award05 from '../assets/images/png/award05.png'
 import Bg from '../assets/images/png/bg.png'
 import chef from '../assets/images/png/chef.png'
 import findus from '../assets/images/png/findus.png'
-import G from '../assets/images/png/G.png.png'
+import G from '../assets/images/png/G.png'
 import Gallery01 from '../assets/images/png/gallery01.png'
 import Gallery02 from '../assets/images/png/gallery02.png'
 import Gallery03 from '../assets/images/png/gallery03.png'
@@ -18,10 +18,10 @@ import Overlaybg from '../assets/images/png/overlaybg.png'
 import Quote from '../assets/images/png/quote.png'
 import Sign from '../assets/images/png/sign.png'
 import Spoon from '../assets/images/png/spoon.png'
-import welcome from '../assets/images/png/welcome.png'
+import Welcome from '../assets/images/jpg/welcome.jpg'
 import Spoonsvg from '../assets/images/svg/spoon.svg'
 
-export {
+export default {
     Award01,
     Award02,
     Award03,
@@ -42,6 +42,6 @@ export {
     Quote,
     Sign,
     Spoon,
-    welcome,
+    Welcome,
     Spoonsvg
 }
