@@ -1,0 +1,38 @@
+.menuitems {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2.4rem;
+}
+
+.menuitem__caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.menuitem__caption h4 {
+    font-family: var(--first-font);
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--color-golden);
+}
+
+.menuitem__caption div {
+    background: var(--color-gray);
+    width: 8rem;
+    height: 0.2rem;
+    margin-left: auto;
+}
+
+.menuitem__caption p {
+    font-family: var(--first-font);
+    font-size: 1.8rem;
+    color: var(--color-golden);
+}
+
+.menuitems p {
+    font-size: 1.2rem;
+}

@@ -6,5 +6,5 @@ export { default as Gallery } from './Gallery/Gallery.jsx'
 export { default as Header } from './Header/Header.jsx'
 export { default as Intro } from './Intro/Intro.jsx'
 export { default as Laures } from './Laures/Laures.jsx'
-export { default as Menu } from './Menu/Menu.jsx'
+export { default as Specialmenu } from './Menu/Specialmenu.jsx'
 
