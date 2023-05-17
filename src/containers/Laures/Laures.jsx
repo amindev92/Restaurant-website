@@ -1,8 +1,12 @@
 import React from 'react'
+import { images, data } from '../../constants'
+import { Subheading } from '../../components'
 
 const Laures = () => {
     return (
-        <div>Laures</div>
+        <div className='laures'>
+            <></>
+        </div>
     )
 }
 
