@@ -26,9 +26,9 @@ const Intro = () => {
             <video src={film} ref={videoRef} loop type='video/mp4' controls={false} muted />
             <div className='intro__control flex__center' onClick={handleVideo}>
                 <div className='intro__control-circle flex__center'>
-                    {playVideo ? (
+                    {playVideo ?
                         <BsPauseFill color='#fff' fontSize={30} />
-                    ) : <BsFillPlayFill color='#fff' fontSize={30} />}
+                        : <BsFillPlayFill color='#fff' fontSize={30} />}
                 </div>
             </div>
         </div>
