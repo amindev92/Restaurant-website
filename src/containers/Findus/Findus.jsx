@@ -4,7 +4,7 @@ import { images } from '../../constants'
 
 const Findus = () => {
     return (
-        <div className='findus app__wrapper app__bg flex__center'>
+        <div className='findus app__wrapper app__bg flex__center section__padding'>
             <div className='app__wrapper_info finus__content'>
                 <Subheading title='Contact' />
                 <h2 className='headtext'>Find us</h2>

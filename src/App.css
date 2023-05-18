@@ -87,32 +87,19 @@
   text-transform: capitalize;
 }
 
+.headtext_2 {
+  font-family: var(--first-font);
+  color: var(--color-golden);
+  font-size: 32px;
+  line-height: 64.2px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
 .spoon__img {
   width: 45px;
 }
 
-@media screen and (min-width: 2000px) {
-
-  .custom__button,
-  .p__cormorant {
-    font-size: 37px;
-    line-height: 67px;
-  }
-
-  .p__opensans {
-    font-size: 30px;
-    line-height: 50px;
-  }
-
-  .headtext__cormorant {
-    font-size: 150px;
-    line-height: 210px;
-  }
-
-  .spoon__img {
-    width: 80px;
-  }
-}
 
 @media screen and (max-width: 1150px) {
 
@@ -138,6 +125,10 @@
   .section__padding {
     padding: 4rem;
   }
+
+  .app__wrapper_info {
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -145,26 +136,4 @@
     padding: 4rem 2rem;
   }
 
-  .p__cormorant {
-    font-size: 21px;
-  }
-
-  .p__opensans {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .p__opensans {
-    font-size: 12px;
-  }
-
-  .p__cormorant {
-    font-size: 19px;
-  }
-
-  .headtext__cormorant {
-    font-size: 45px;
-    line-height: 70px;
-  }
 }
